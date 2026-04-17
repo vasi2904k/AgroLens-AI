@@ -1,0 +1,22 @@
+.venv/
+.env
+.vscode/
+
+# ── Dataset ──
+data/raw/plant_village/
+data/raw/.gitkeep
+!data/raw/.gitkeep
+
+data/processed/.gitkeep
+!data/processed/.gitkeep
+
+data/splits/.gitkeep
+!data/splits/.gitkeep
+
+data/metadata/.gitkeep
+!data/metadata/.gitkeep
+
+# ── Jupyter checkpoints ──
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
