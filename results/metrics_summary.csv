@@ -1,0 +1,7 @@
+Metric,Value,Status
+Training Loss,2.370208,✅
+Validation Loss,3.237584,✅
+Loss Gap,0.867377,🔴
+Training Accuracy,0.187500,✅
+Validation Accuracy,0.000000,✅
+Accuracy Gap,0.187500,✅
