@@ -1,0 +1,34 @@
+{
+  "framework": "PyTorch",
+  "model_name": "Baseline CNN",
+  "training_config": {
+    "epochs_trained": 10,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss (label_smoothing=0.1)"
+  },
+  "final_metrics": {
+    "training_loss": 2.3702075481414795,
+    "validation_loss": 3.237584114074707,
+    "loss_gap": 0.8673765659332275,
+    "training_accuracy": 0.1875,
+    "validation_accuracy": 0.0,
+    "accuracy_gap": 0.1875
+  },
+  "statistics": {
+    "max_loss_gap": 0.9095462560653687,
+    "min_loss_gap": 0.008213996887207031,
+    "mean_loss_gap": 0.5336640834808349,
+    "std_loss_gap": 0.281622156907223
+  },
+  "diagnosis": "SEVERE_OVERFITTING (Critical)",
+  "severity_score": 0.9,
+  "recommendations": [
+    "Implement recommended regularization techniques",
+    "Retrain model with improved hyperparameters",
+    "Monitor training curves for convergence",
+    "Validate on separate test set",
+    "Consider ensemble methods for better performance"
+  ]
+}
